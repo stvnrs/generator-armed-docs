@@ -47,7 +47,7 @@ The __deployment.json_ file defines the schema, contentVersion and parameters fo
 
 #### Example
 
-This example contains a paramter for the name of the project (this will be used in the naming of objects deployed using the assembled template), and a second parameter specify the object ID of the AAD group or user that will be granted access to the key vault.
+This example contains a parameter for the name of the project (this will be used in the naming of objects deployed using the assembled template), and a second parameter specify the object ID of the AAD group or user that will be granted access to the key vault.
 
 ```json
 :(../samples/sub-generators/deployment/deployments/singe/_deployment.json)
