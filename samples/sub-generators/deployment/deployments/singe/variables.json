@@ -1,0 +1,9 @@
+{
+    "variables": {
+      "resourceTypes": {
+        "keyVault": "key-vault",
+        "storageAccount": "storage"
+      },
+      "keyVaultName": "[fn.resourceIdentifier(parameters('projectName'), fn.locationAbbreviation(resourceGroup().location), variables('resourceTypes').keyVault)]"
+    }
+  }

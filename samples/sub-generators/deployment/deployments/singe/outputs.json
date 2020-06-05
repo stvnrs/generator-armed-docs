@@ -1,0 +1,16 @@
+{
+  "outputs": {
+    "subscriptionDetails": {
+        "type" : "object",
+        "value": "[subscription()]"
+    },
+    "resourceGroupDetails": {
+        "type" : "object",
+        "value": "[resourceGroup()]"
+    },
+    "keyVaultDetails": {
+        "type" : "string",
+        "value": "[variables('keyVaultName')]"
+    }
+  }
+}

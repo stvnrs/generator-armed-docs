@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {
+      "type": "Microsoft.KeyVault/vaults",
+      "name": "[variables('keyVaultName')]",
+      "location": "[resourceGroup().location]",
+      "apiVersion": "2016-10-01",
+      "properties": {
+        "enabledForDeployment": "[bool('false')]",
+        "enabledForTemplateDeployment": "[bool('true')]",
+        "enabledForDiskEncryption": "[bool('false')]",
+        "tenantId": "[subscription().tenantId]",
+        "accessPolicies": [
+          {
+            "objectId": "[parameters('keyVaultViewersObjectId')]",
+            "tenantId": "[subscription().tenantId]",
+            "permissions": {
+              "certificates": [
+                "list"
+              ],
+              "keys": [
+                "list"
+              ],
+              "secrets": [
+                "list"
+              ]
+            }
+          }
+        ],
+        "sku": {
+          "name": "standard",
+          "family": "A"
+        },
+        "networkAcls": {
+          "value": {
+            "defaultAction": "Allow",
+            "bypass": "AzureServices"
+          }
+        }
+      }
+    }
+  ]
+}

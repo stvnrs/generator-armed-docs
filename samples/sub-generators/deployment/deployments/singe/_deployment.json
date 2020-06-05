@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.1",
+  "parameters": {
+    "projectName": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 4,
+      "metadata": {
+        "description": "A short string used to identify resources in the solution!"
+      }
+    },
+    "keyVaultViewersObjectId": {
+      "type": "string",
+      "minLength": 36,
+      "maxLength": 36,
+      "metadata": {
+        "description": "Object Id (guid) of the the AAD user or group to grant access to the key vault"
+      }
+    }
+  }
+}

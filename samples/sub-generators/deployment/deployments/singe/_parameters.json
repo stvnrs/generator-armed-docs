@@ -1,0 +1,11 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "parameters": {
+      "projectName": {
+        "value": "flob"
+      },
+      "keyVaultViewersObjectId": {
+        "value": "853843ad-0155-4076-97e8-908ac1922391"
+      }
+    }
+  }

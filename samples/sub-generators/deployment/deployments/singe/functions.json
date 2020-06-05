@@ -1,0 +1,41 @@
+{
+  "functions": [
+    {
+      "namespace": "fn",
+      "members": {
+        "locationAbbreviation": {
+          "parameters": [
+            {
+              "name": "location",
+              "type": "string"
+            }
+          ],
+          "output": {
+            "type": "string",
+            "value": "[if(equals(parameters('location'),'northeurope'), 'ne', if(equals(parameters('location'),'westeurope'), 'we','??'))]"
+          }
+        },
+        "resourceIdentifier": {
+          "parameters": [
+            {
+              "name": "prefix",
+              "type": "string"
+            },
+            {
+              "name": "location",
+              "type": "string"
+            },
+            {
+              "name": "type",
+              "type": "string"
+            }
+          ],
+          "output": {
+            "type": "string",
+            "value": "[concat(parameters('prefix'), '-', parameters('location'), '-' , parameters('type'))]"
+          }
+        }
+      }
+    }
+  ]
+}
