@@ -1,10 +1,6 @@
-# Sub-generator: deployment
+# deployment sub-generator
 
-A _deployment_ is a set of related set of resources that are deployed to the same resource group.  There may be a 1-2-1 or many-2-1 relational deployments and resource groups in your solution.
-
-## Adding a deployment
-
-A deployment is added to your solution by running the _deployment_ sub-generator.
+Adds a [deployment](../concepts.md#deployment) to your solution.
 
 ```pwsh
 yo armed:deployment
@@ -12,7 +8,7 @@ yo armed:deployment
 
 You will be prompted to enter a name for the deployment, or you can accept the default _core_ by pressing return.
 
-![example](./create-deployment.gif)
+![example](../images/create-deployment.gif)
 
 This will create a folder in the solution's deployments folder with the name you entered at the prompt which contains the following files.
 
@@ -26,8 +22,6 @@ deployments
     variables.json
     _parameters.json
 ```
-
-The purpose of each of these files is explained below:
 
 ### _deployment.json
 
@@ -50,7 +44,7 @@ The __deployment.json_ file defines the schema, contentVersion and parameters fo
 This example contains a parameter for the name of the project (this will be used in the naming of objects deployed using the assembled template), and a second parameter specify the object ID of the AAD group or user that will be granted access to the key vault.
 
 ```json
-:(../samples/sub-generators/deployment/deployments/singe/_deployment.json)
+:(../../samples/sub-generators/deployment/deployments/singe/_deployment.json)
 ```
 
 ### functions.json
@@ -70,7 +64,7 @@ The __functions.json_ file contains custom functions used in the arm template. A
 This example shows a function that calculates an identifer for a resource based on its type and location, and a function that calculates an abbreviation for a location.
 
 ```json
-:(../samples/sub-generators/deployment/deployments/singe/functions.json)
+:(../../samples/sub-generators/deployment/deployments/singe/functions.json)
 ```
 
 ### variables.json
@@ -89,7 +83,7 @@ The __variables.json_ file contains variables functions used in the arm template
 This example shows an object variable which is used as a lookup and scalar variable which used the functions defined earlier to specify the name for the key vault being created.
 
 ```json
-:(../samples/sub-generators/deployment/deployments/singe/variables.json)
+:(../../samples/sub-generators/deployment/deployments/singe/variables.json)
 ```
 
 ### resources.json
@@ -108,7 +102,7 @@ The __resources.json_ file contains resources deployed by the arm template. A de
 This examples shows the deployment of a key vault.
 
 ```json
-:(../samples/sub-generators/deployment/deployments/singe/resources.json)
+:(../../samples/sub-generators/deployment/deployments/singe/resources.json)
 ```
 
 ### outputs.json
@@ -125,7 +119,7 @@ The __outputs.json_ file contains outputs deployed by the arm template. A deploy
 #### Example
 
 ```json
-:(../samples/sub-generators/deployment/deployments/singe/outputs.json)
+:(../../samples/sub-generators/deployment/deployments/singe/outputs.json)
 ```
 
 ### _parameters.json
@@ -181,13 +175,13 @@ The build process for a deployment:
 ### Built parameter file
 
 ```json
-:(../samples/sub-generators/deployment/build/singe/singe.parameters.json)}
+:(../../samples/sub-generators/deployment/build/singe/singe.parameters.json)}
 ```
 
 ### Built deployment template
 
 ```json
-:(../samples/sub-generators/deployment/build/singe/singe.deployment.json)}
+:(../../samples/sub-generators/deployment/build/singe/singe.deployment.json)}
 ```
 
 <!--iframe width=100% src="https://www.youtube-nocookie.com/embed/rY39IL-Sd94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
