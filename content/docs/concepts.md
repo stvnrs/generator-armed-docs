@@ -1,4 +1,9 @@
-# Concepts
+---
+title: "Concepts"
+linkTitle: "Concepts"
+weight: 500
+menu:
+---
 
 ## Deployment
 

@@ -1,4 +1,7 @@
-# pipeline sub-generator
+---
+title: "pipeline sub-generator"
+linkTitle: "pipeline"
+---
 
 Adds a [pipeline](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities) to a [data factory](https://azure.microsoft.com/en-us/services/data-factory/) in your solution
 

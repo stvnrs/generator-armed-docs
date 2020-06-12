@@ -1,4 +1,7 @@
-# data-factory sub-generator
+---
+title: "data-factory sub-generator"
+linkTitle: "data-factory"
+---
 
 Adds an [data factory](https://azure.microsoft.com/en-us/services/data-factory/) to to your solution.
 

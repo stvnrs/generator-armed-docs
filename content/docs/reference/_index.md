@@ -1,4 +1,8 @@
-# Reference
+---
+title: "Reference"
+linkTitle: "Reference"
+weight: 800
+---
 
 ## Conventions
 
@@ -9,8 +13,6 @@ Conventions used throughout this reference.
   Are used to represent a value that is derived at run time or are manually entered.
 
 ## Generators
-
-### armed
 
 - [armed](./generators/armed.md)
 

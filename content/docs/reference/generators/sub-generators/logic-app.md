@@ -1,4 +1,7 @@
-# logic-app sub-generator
+---
+title: "logic-app sub-generator"
+linkTitle: "logic-app"
+---
 
 Adds a [Logic App](https://azure.microsoft.com/en-us/services/logic-apps/) to to your solution.
 

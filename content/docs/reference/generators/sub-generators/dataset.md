@@ -1,4 +1,7 @@
-# dataset sub-generator
+---
+title: "dataset sub-generator"
+linkTitle: "dataset"
+---
 
 Adds a [dataset](https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets) to a [data factory](https://azure.microsoft.com/en-us/services/data-factory/) in your solution.
 

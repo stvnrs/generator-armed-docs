@@ -1,4 +1,11 @@
-# Armed
+---
+title: "Docs"
+linkTitle: "Docs"
+weight: 20
+menu:
+  main:
+    weight: 20
+---
 
 Armed is a [yeoman](https://yeoman.io/) generator that simplifies the development of [ARM templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) using a code-first compositional approach. It produces a solution consisting of a number of  template fragments which are merged together without the need for pre-processing or transformation.
 
@@ -6,9 +13,9 @@ This maintains editing compatibility with the [Azure Resource Manager (ARM) Tool
 
 ## Contents
 
-- [Concepts](./concepts.md)
+- [Concepts](./concepts)
 - [Quick Start](./quick-start.md)
-- [Reference](./reference.md)
+- [Reference](./reference)
 - [Source](https://github.com/stvnrs/generator-armed)
 - [npm package](https://www.npmjs.com/package/generator-armed)
 

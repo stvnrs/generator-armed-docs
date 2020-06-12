@@ -1,4 +1,7 @@
-# Sub-generator: api-connection
+---
+title: "api-connection sub-generator"
+linkTitle: "api-connection"
+---
 
 Adds an [Api Connection](https://docs.microsoft.com/en-us/azure/connectors/apis-list) to to your solution.
 

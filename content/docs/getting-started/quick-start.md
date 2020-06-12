@@ -1,4 +1,7 @@
-# Quick Start
+---
+title: "Quick Start"
+linkTitle: "Quick Start"
+---
 
 ## Pre-requisites
 
