@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Armed"
-theme = "docsy"
+theme = "ananke"
 
 # Highlighting config
 pygmentsCodeFences = true
