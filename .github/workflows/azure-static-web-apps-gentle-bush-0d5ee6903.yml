@@ -21,10 +21,9 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - uses: bahmutov/npm-install@v1
-        run: npm install autoprefixer --save-dev
-
-      - uses: bahmutov/npm-install@v1
-        run: npm install postcss-cli --save-dev
+      
+      - name: INstall theme dependencies
+        run: npm install autoprefixer postcss-cli --save-dev
       
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.4.11
