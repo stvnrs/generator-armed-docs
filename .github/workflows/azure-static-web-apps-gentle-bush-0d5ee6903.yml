@@ -26,6 +26,9 @@ jobs:
           hugo-version: "latest"  # Hugo version: latest OR x.y.z
           extended: true
 
+      - name: Build
+        run: hugo
+
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
