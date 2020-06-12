@@ -14,18 +14,18 @@ Conventions used throughout this reference.
 
 ## Generators
 
-- [armed](./generators/armed.md)
+- [armed](./generators/armed)
 
 ### Sub-generators
 
-- [api-connection](./generators/api-connection.md)
-- [deployment](./generators/deployment.md)
-- [data-factory](./generators/data-factory.md)
-- [data-flow](./generators/data-flow.md)
-- [dataset](./generators/dataset.md)
-- [integration-runtime](./generators/integration-runtime.md)
-- [key-vault](./generators/key-vault.md)
-- [linked-service](./generators/linked-service.md)
-- [logic-app](./generators/logic-app.md)
-- [pipeline](./generators/pipeline.md)
-- [trigger](./generators/trigger.md)
+- [api-connection](./generators/sub-generators/api-connection)
+- [deployment](./generators/sub-generators/deployment)
+- [data-factory](./generators/sub-generators/data-factory)
+- [data-flow](./generators/sub-generators/data-flow)
+- [dataset](./generators/sub-generators/dataset)
+- [integration-runtime](./generators/sub-generators/integration-runtime)
+- [key-vault](./generators/sub-generators/key-vault)
+- [linked-service](./generators/sub-generators/linked-service)
+- [logic-app](./generators/sub-generators/logic-app)
+- [pipeline](./generators/sub-generators/pipeline)
+- [trigger](./generators/sub-generators/trigger)

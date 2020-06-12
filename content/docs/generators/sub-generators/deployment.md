@@ -1,10 +1,9 @@
 ---
 title: "deployment sub-generator"
 linkTitle: "deployment"
-weight: 0
 ---
 
-Adds a [deployment](/docs/concepts#deployment) to your solution.
+Adds a [deployment](../concepts#deployment) to your solution.
 
 ``` bash
 yo armed:deployment
@@ -48,7 +47,7 @@ The __deployment.json_ file defines the schema, contentVersion and parameters fo
 This example contains a parameter for the name of the project (this will be used in the naming of objects deployed using the assembled template), and a second parameter specify the object ID of the AAD group or user that will be granted access to the key vault.
 
 ```json
-{{% include "/samples/sub-generators/deployment/deployments/singe/_deployment.json"%}}
+{{% include "/_deployment.json"%}}
 ```
 
 ### functions.json
@@ -190,6 +189,4 @@ The build process for a deployment:
 {{% include "/samples/sub-generators/deployment/build/singe/singe.deployment.json"%}}
 ```
 
-## Video
-
-{{< youtube id="rY39IL-Sd94" autoplay="false" >}}
+<!--iframe width=100% src="https://www.youtube-nocookie.com/embed/rY39IL-Sd94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->

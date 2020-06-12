@@ -9,7 +9,7 @@ Adds an [data factory](https://azure.microsoft.com/en-us/services/data-factory/)
 yo armed:data-factory
 ```
 
-This will prompt you to select which existing [deployment](./deployments.md) in your solution you want to add the data factory to.
+This will prompt you to select which existing [deployment](./deployments) in your solution you want to add the data factory to.
 
 **Note**: an error will be generated if your solution does not contain any deployments.
 

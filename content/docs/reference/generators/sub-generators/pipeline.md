@@ -9,7 +9,7 @@ Adds a [pipeline](https://docs.microsoft.com/en-us/azure/data-factory/concepts-p
 yo armed:pipeline
 ```
 
-This will prompt you to select which existing [deployment](./deployments.md) in your solution contains the [data factory](https://azure.microsoft.com/en-us/services/data-factory/) you wish to add the [pipeline](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities) to.
+This will prompt you to select which existing [deployment](./deployments) in your solution contains the [data factory](https://azure.microsoft.com/en-us/services/data-factory/) you wish to add the [pipeline](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities) to.
 
 **Note**: an error will be generated if your solution does not contain any deployments.
 

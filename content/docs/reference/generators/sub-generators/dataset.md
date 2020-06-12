@@ -9,7 +9,7 @@ Adds a [dataset](https://docs.microsoft.com/en-us/azure/data-factory/concepts-da
 yo armed:dataset
 ```
 
-This will prompt you to select which existing [deployment](./deployments.md) in your solution contains the [data factory](https://azure.microsoft.com/en-us/services/data-factory/) you wish to add the [dataset](https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets) to.
+This will prompt you to select which existing [deployment](./deployments) in your solution contains the [data factory](https://azure.microsoft.com/en-us/services/data-factory/) you wish to add the [dataset](https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets) to.
 
 **Note**: an error will be generated if your solution does not contain any deployments.
 

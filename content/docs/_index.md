@@ -14,7 +14,7 @@ This maintains editing compatibility with the [Azure Resource Manager (ARM) Tool
 ## Contents
 
 - [Concepts](./concepts)
-- [Quick Start](./quick-start.md)
+- [Quick Start](./quick-start)
 - [Reference](./reference)
 - [Source](https://github.com/stvnrs/generator-armed)
 - [npm package](https://www.npmjs.com/package/generator-armed)

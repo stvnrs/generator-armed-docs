@@ -9,7 +9,7 @@ Adds an [Api Connection](https://docs.microsoft.com/en-us/azure/connectors/apis-
 yo armed:api-connection
 ```
 
-This will prompt you to select which existing [deployment](./deployments.md) in your solution you want to add the api connection to. 
+This will prompt you to select which existing [deployment](./deployments) in your solution you want to add the api connection to. 
 
 **Note**: an error will be generated if your solution does not contain any deployments.
 
