@@ -9,6 +9,7 @@
     "postcss-cli": "^7.1.1"
   },
   "scripts": {
+    "build": "hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

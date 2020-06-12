@@ -26,10 +26,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2.4.11
         with:
           hugo-version: "latest"  # Hugo version: latest OR x.y.z
-          extended: true
-      
-      - name: Build
-        run: hugo
+          extended: true    
 
       - name: Build And Deploy
         id: builddeploy
