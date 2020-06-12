@@ -22,9 +22,6 @@ jobs:
 
       - uses: bahmutov/npm-install@v1
       
-      - name: INstall theme dependencies
-        run: npm install autoprefixer postcss-cli --save-dev
-      
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.4.11
         with:
