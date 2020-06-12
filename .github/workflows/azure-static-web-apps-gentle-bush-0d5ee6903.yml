@@ -26,6 +26,9 @@ jobs:
           hugo-version: "latest"  # Hugo version: latest OR x.y.z
           extended: true
       
+      - name: Build
+        run: hugo
+        
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview
