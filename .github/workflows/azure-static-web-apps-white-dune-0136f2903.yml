@@ -17,8 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true
-          nestedSubmodules: true
+          submodules: RECURSIVE
       - uses: bahmutov/npm-install@v1
       - name: Build And Deploy
         id: builddeploy
